@@ -1,0 +1,17 @@
+This is an Android based mobile discussion forum running on the lines of stackoverflow designed for knowledge transfer
+to be used at educational institutions . The application boasts of features that are adapted for its usage by students 
+and teachers alike . 
+
+m4M runs the android application on the client side and , on the server side connects to a remote database using php 
+script to access the database . Communication b/w client and server is done using simple http GET/POST from the 
+device . All the data is handled in JSON format thus making the client-server communication as fast and light as possible .
+
+Features Of m4M (Mobile Forum) :
+
+- Glance page to view all questions and associated answers
+- Login to enable users to ask/answer questions and also rate questions and answers . Users can also mark solutions to 
+  their questions .
+- Features to help users register (if not already registered) and also help them retrieve their passwords if
+  forgotten .
+- Encryption of passwords (AES) to maintain confidentiality .
+
