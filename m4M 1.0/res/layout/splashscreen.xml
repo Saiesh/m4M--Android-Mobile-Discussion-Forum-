@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/bgc"
+	android:padding="20dip"
+	android:gravity="center_horizontal"
+	>
+	<ImageView 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/logobig"
+		android:id="@+id/pictt"
+		android:layout_gravity="center_horizontal"
+		android:layout_alignParentTop="true"
+	/>
+	<TextView 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Mobilizing Classrooms"
+		android:textColor="#FFFFFFFF"
+		android:textStyle="bold|italic"
+		android:gravity="right"
+		android:padding="10dip"
+		android:layout_below="@id/pictt"
+		android:id="@+id/txt1"
+	/>
+	<ImageView 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/img1"
+		android:background="@drawable/phone"
+		android:layout_below="@id/txt1"
+		android:layout_alignParentLeft="true"
+	/>
+	<ImageView 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/img2"
+		android:background="@drawable/phone"
+		android:layout_below="@id/txt1"
+		android:layout_toRightOf="@id/img1"
+	/>
+	<ImageView 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/img3"
+		android:background="@drawable/phone"
+		android:layout_below="@id/txt1"
+		android:layout_toRightOf="@id/img2"
+	/>
+			
+	
+	<TextView 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Starting m4M..."
+		android:textColor="#FFFFFFFF"
+		android:layout_alignParentBottom="true"
+		android:gravity="center_horizontal"
+		android:id="@+id/startm4m"
+		android:paddingTop="2dip"
+		android:paddingBottom="20dip"
+		android:visibility="invisible"
+	/>
+	<TextView 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Verifying Version..."
+		android:textColor="#FFFFFFFF"
+		android:layout_above="@id/startm4m"
+		android:gravity="center_horizontal"
+		android:id="@+id/vcheck"
+		android:paddingTop="2dip"
+		android:visibility="invisible"
+	/>
+	<TextView 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Loading Preferences..."
+		android:textColor="#FFFFFFFF"
+		android:layout_above="@id/vcheck"
+		android:gravity="center_horizontal"
+		android:id="@+id/prefcheck"
+		android:paddingTop="20dip"
+	/>
+	
+	<ProgressBar 
+	android:layout_height="wrap_content" 
+	android:layout_width="wrap_content" 
+	android:layout_above="@id/prefcheck" 
+	android:layout_centerHorizontal="true"
+	android:id="@+id/bar1"
+	/>
+</RelativeLayout>

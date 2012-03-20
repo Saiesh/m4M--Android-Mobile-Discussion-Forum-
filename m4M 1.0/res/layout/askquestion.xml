@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bgc"
+>
+ 	<ScrollView 
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:layout_gravity="center_horizontal"
+    	android:fillViewport="true"
+    >
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:orientation="vertical"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:padding="15dip"
+	    >
+		    <TextView 
+		    	android:layout_height="wrap_content"
+		    	android:layout_width="fill_parent"
+		    	android:text="@string/asktitle"
+		    	android:textAppearance="@android:style/TextAppearance.Small"
+		    />
+		    <EditText 
+		    	android:layout_height="wrap_content"
+		    	android:layout_width="fill_parent"
+		    	android:layout_marginTop="5dip"
+		    	android:id="@+id/qtitle"
+		    	android:maxLength="50"
+		    />
+		    <TextView 
+		    	android:layout_height="wrap_content"
+		    	android:layout_width="fill_parent"
+		    	android:text="@string/askquestion"
+		    	android:textAppearance="@android:style/TextAppearance.Small"
+		    	android:gravity="left"
+		    	android:paddingTop="5dip"
+		    />
+		    <EditText 
+		    	android:layout_height="wrap_content"
+		    	android:layout_width="fill_parent"
+		    	android:layout_marginTop="5dip"
+		    	android:id="@+id/question"
+		    	android:layout_weight="1"
+		    	android:gravity="top"
+		    	android:maxLength="350"
+		    />
+		    <Button 
+		    	android:layout_height="wrap_content"
+		    	android:layout_width="fill_parent"
+		    	android:text="Post Question on m4M"
+		    	android:id="@+id/postquestion"
+		    	android:layout_gravity="center_horizontal"
+		    	android:layout_marginTop="5dip"
+		    	android:background="@drawable/button"
+		    />
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

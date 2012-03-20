@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/gl_search_topic" 
+    	android:title="Search by Topic"
+    	android:icon="@android:drawable/ic_menu_search"/>
+	<item android:id="@+id/gl_search_user" 
+    	android:title="Search by Username"
+    	android:icon="@android:drawable/ic_menu_search"/> 
+	<item android:id="@+id/gl_refresh_menu"
+        android:title="Reload Data"
+        android:icon="@android:drawable/ic_menu_rotate" />
+    <item android:id="@+id/gl_logout_menu"
+        android:title="Logout"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel" />
+    
+</menu>

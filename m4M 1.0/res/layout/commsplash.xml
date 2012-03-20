@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/bgc"
+	android:padding="20dip"
+	android:gravity="center_horizontal"
+	>
+	<ImageView 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/logobig"
+		android:id="@+id/pictt"
+		android:layout_gravity="center_horizontal"
+		android:layout_alignParentTop="true"
+	/>
+	<TextView 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Mobilizing Classrooms"
+		android:textColor="#FFFFFFFF"
+		android:textStyle="bold|italic"
+		android:gravity="right"
+		android:padding="10dip"
+		android:layout_below="@id/pictt"
+		android:id="@+id/txt1"
+	/>
+	
+			
+	<TextView 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Loading Data, Please Wait"
+		android:textColor="#FFFFFFFF"
+		android:textStyle="bold"
+		android:layout_alignParentBottom="true"
+		android:gravity="center_horizontal"
+		android:id="@+id/commtxt"
+		android:padding="20dip"
+	/>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		  android:orientation="horizontal"
+		  android:layout_width="wrap_content"
+		  android:layout_height="wrap_content"
+		  android:layout_centerHorizontal="true"
+		  android:layout_above="@id/commtxt"
+		  android:id="@+id/linlay">
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/logosm2"
+			android:layout_gravity="center_horizontal"
+		/>
+		<TextView 
+	    	android:textColor="#FFAFAFAF" 
+	    	android:layout_height="wrap_content" 
+	    	android:layout_width="wrap_content"
+	    	android:layout_gravity="center_vertical"
+	    	android:textSize="30dip"
+	    	android:text="Community"
+	    	android:layout_marginLeft="10dip"
+	    		android:shadowColor="#6f6f6f"  
+		        android:shadowRadius="1.5"  
+		        android:shadowDx="2"  
+		        android:shadowDy="2"
+	    />
+	    </LinearLayout>
+	    <ProgressBar 
+	android:layout_height="wrap_content" 
+	android:layout_width="wrap_content" 
+	android:layout_above="@id/linlay" 
+	android:layout_centerHorizontal="true"
+	android:id="@+id/commbar"
+	android:paddingBottom="20dip"
+	/>
+	    <!-- <ImageView
+  		android:id="@+id/comm_image"
+  		android:layout_above="@id/linlay"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="@drawable/community3"
+		android:layout_marginBottom="20dip"
+		android:layout_centerHorizontal="true"
+	/>-->
+    
+	</RelativeLayout>

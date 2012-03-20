@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFFFF"
+    
+    >
+    <ScrollView android:id="@+id/ScrollView01"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip"
+    android:paddingBottom="5dip"
+    >
+    <TextView 
+    	android:textColor="#FF000000" 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content"
+    	android:paddingTop="10dip"
+    	android:layout_marginLeft="5dip"
+    	android:layout_marginRight="5dip"
+    	android:id="@+id/details_name"
+    />
+    <TextView 
+    	android:textColor="#FF000000" 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content"
+    	android:paddingTop="10dip"
+    	android:layout_marginLeft="5dip"
+    	android:layout_marginRight="5dip"
+    	android:text="Name"
+    />
+    <TextView 
+    	android:textColor="#FF000000" 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content"
+    	android:paddingTop="2dip"
+    	android:layout_marginLeft="5dip"
+    	android:layout_marginRight="5dip"
+    	android:text="m4M Username"
+    />
+    <TextView 
+    	android:textColor="#FF000000" 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content"
+    	android:paddingTop="2dip"
+    	android:layout_marginLeft="5dip"
+    	android:layout_marginRight="5dip"
+    	android:text="E-Mail Address"
+    />
+    <TextView 
+    	android:textColor="#FF000000" 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content"
+    	android:paddingTop="2dip"
+    	android:layout_marginLeft="5dip"
+    	android:layout_marginRight="5dip"
+    	android:text="Mobile number"
+    />
+    <TextView 
+    	android:textColor="#FF000000" 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content"
+    	android:paddingTop="10dip"
+    	android:layout_marginLeft="5dip"
+    	android:layout_marginRight="5dip"
+    	android:text="The user may reply to you if he/she wishes. Click Send if you agree to the terms."
+    />
+    
+     <TextView 
+    	android:textColor="#FF000000" 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content"
+    	android:paddingTop="10dip"
+    	android:layout_marginLeft="5dip"
+    	android:layout_marginRight="5dip"
+    	android:text="Warning: Misuse of this feature is grounds for account deactivation."
+    />
+    <Button 
+    	android:layout_width="200dip"
+    	android:layout_height="wrap_content"
+    	android:text="Send Details"
+    	android:id="@+id/send_details"
+    	android:layout_marginTop="10dip"
+    	android:layout_gravity="center_horizontal"
+    />
+   </LinearLayout>
+   </ScrollView> 
+    
+</LinearLayout>

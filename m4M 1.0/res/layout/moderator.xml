@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFFFF"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip"
+    android:paddingBottom="5dip"
+    >
+    <TextView 
+    	android:textColor="#FF000000" 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content"
+    	android:paddingTop="10dip"
+    	android:text="Moderator Key"
+    />
+    <EditText 
+    	android:layout_height="wrap_content"
+    	android:layout_width="200dip"
+    	android:id="@+id/mod_key"
+    	android:paddingBottom="10dip"
+    />
+    <Button 
+    	android:layout_width="100dip"
+    	android:layout_height="wrap_content"
+    	android:id="@+id/mod_unlock"
+    	android:text="Unlock"
+    	android:layout_gravity="center_horizontal"
+    />
+    
+    
+</LinearLayout>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/LinearLayout01"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@drawable/bgc"
+xmlns:android="http://schemas.android.com/apk/res/android">
+	<ScrollView android:id="@+id/ScrollView01"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    
+	    android:padding="20dip"
+	    >
+			<ImageButton
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:background="@drawable/logobig"
+				android:layout_centerInParent="true"
+				/>
+			<TextView 
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="version_info"
+				android:id="@+id/version"
+				android:layout_marginTop="10dip"
+				android:gravity="center_horizontal"
+				android:textAppearance="@android:style/TextAppearance.Medium"
+				android:textStyle="bold"
+				/>
+			<TextView 
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="release_date"
+				android:id="@+id/release_date"
+				android:layout_marginTop="5dip"
+				android:gravity="center_horizontal"
+				android:textAppearance="@android:style/TextAppearance.Small"
+				android:textStyle="bold"
+				/>
+			<TextView 
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="Mobile Forum Designed &amp; Developed By"
+				android:textAppearance="@android:style/TextAppearance.Small"
+				android:gravity="center_horizontal"
+				android:layout_marginTop="20dip"
+				/>
+				<TextView 
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="Saiesh Natarajan"
+				android:textAppearance="@android:style/TextAppearance.Small"
+				android:textStyle="bold"
+				android:gravity="center_horizontal"
+				android:layout_marginTop="10dip"
+				/>
+				<TextView 
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="Shashank Kedia"
+				android:textAppearance="@android:style/TextAppearance.Small"
+				android:textStyle="bold"
+				android:gravity="center_horizontal"
+				android:layout_marginTop="3dip"
+				/>
+				<TextView 
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="Shreyas Seshadri"
+				android:textAppearance="@android:style/TextAppearance.Small"
+				android:textStyle="bold"
+				android:gravity="center_horizontal"
+				android:layout_marginTop="3dip"
+				/>
+				<TextView 
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="Under the guidance of"
+				android:textAppearance="@android:style/TextAppearance.Small"
+				android:gravity="center_horizontal"
+				android:layout_marginTop="10dip"
+				/>
+				<TextView 
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="Dr. Kavi Mahesh"
+				android:textAppearance="@android:style/TextAppearance.Small"
+				android:textStyle="bold"
+				android:gravity="center_horizontal"
+				android:layout_marginTop="5dip"
+				/>
+				<TextView 
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="PES Institute of Technology"
+				android:textAppearance="@android:style/TextAppearance.Medium"
+				android:gravity="center_horizontal"
+				android:layout_marginTop="10dip"
+				/>
+				<TextView 
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="Bangalore, India"
+				android:textAppearance="@android:style/TextAppearance.Small"
+				android:gravity="center_horizontal"
+				android:layout_marginTop="3dip"
+				/>
+				<Button 
+		    	android:layout_height="wrap_content"
+		    	android:layout_width="250dip"
+		    	android:text="Send bug reports or suggestions"
+		    	android:id="@+id/about_bttn"
+		    	android:layout_gravity="center_horizontal"
+		    	android:layout_marginTop="10dip"
+		    	android:background="@drawable/button"
+		    />
+				<TextView 
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="All software updates are mandatory."
+				android:textAppearance="@android:style/TextAppearance.Small"
+				android:gravity="center_horizontal"
+				android:layout_marginTop="10dip"
+				/>
+				<TextView 
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="Server maintenance may temporarily"
+				android:textAppearance="@android:style/TextAppearance.Small"
+				android:gravity="center_horizontal"
+				android:layout_marginTop="3dip"
+				/>
+				<TextView 
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="affect software operation."
+				android:textAppearance="@android:style/TextAppearance.Small"
+				android:gravity="center_horizontal"
+				/>
+		</LinearLayout>
+		
+	</ScrollView>
+</LinearLayout>

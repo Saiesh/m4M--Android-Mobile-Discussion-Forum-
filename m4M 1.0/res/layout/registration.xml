@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/LinearLayout01"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android">
+	<ScrollView android:id="@+id/ScrollView01"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/bgc"
+	    android:padding="20dip"
+	    >
+			<ImageButton
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:background="@drawable/logobig"
+				android:layout_centerInParent="true"
+				/>
+			<TextView 
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="@string/reg_welcome"
+				android:layout_marginTop="10dip"
+				/>
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:textStyle="bold"
+				android:layout_marginTop="10dip"
+				android:text="Please enter your name:"
+				/>
+			<EditText 
+				android:id="@+id/Name"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dip"
+				android:maxLength="64" 
+				/>
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:textStyle="bold"
+				android:layout_marginTop="10dip"
+				android:text="Please enter your e-mail address:" 
+				/>
+			<TextView 
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="All correspondence from m4M will be sent to this, so make sure its one which you frequent"
+				android:layout_marginTop="2dip"
+				/>
+			<EditText 
+				android:id="@+id/EmailID"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="3dip"
+				android:maxLength="128" 
+				/>
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:textStyle="bold"
+				android:layout_marginTop="10dip"
+				android:text="Please enter a username:" 
+				/>
+			<TextView 
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="Preferably, the username of your E-Mail address"
+				android:layout_marginTop="2dip"
+				/>
+			<EditText 
+				android:id="@+id/Username"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="3dip"
+				android:maxLength="32" 
+				/>
+			<TextView 
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:textStyle="bold"
+				android:text="Please enter a password:"
+				android:layout_marginTop="10dip"
+				/>
+			<TextView 
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="Password must be minimum 8 characters long"
+				android:layout_marginTop="2dip"
+				/>
+			<EditText 
+				android:id="@+id/Password"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:inputType="textPassword"
+				android:layout_marginTop="3dip"
+				android:maxLength="48" 
+				/>
+			
+			<TextView 
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:textStyle="bold"
+				android:text="Confirm your password:"
+				android:layout_marginTop="10dip"
+				/>
+			<EditText 
+				android:id="@+id/CPassword"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dip"
+				android:inputType="textPassword"
+				android:maxLength="48" 
+				/>
+			<TextView 
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:textStyle="bold"
+				android:text="Please enter your phone number:"
+				android:layout_marginTop="10dip"
+				/>
+			<TextView 
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="With country code, eg: +91..."
+				android:layout_marginTop="2dip"
+				/>
+			<EditText 
+				android:id="@+id/PhoneNo"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:inputType="phone"
+				android:layout_marginTop="5dip"
+				android:maxLength="32" 
+				/>
+				<View 
+		android:layout_width="fill_parent"
+		android:layout_height="1dp"
+		android:background="#ff434343"
+		android:layout_marginTop="10dip"
+	/>
+				<CheckBox 
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:textAppearance="@android:style/TextAppearance.Small"
+				android:textStyle="bold"
+				android:id="@+id/isteacher"
+				android:text="	I'm a teacher"
+				/>
+				<TextView 
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="@string/teacher"
+				android:layout_marginTop="2dip"
+				android:layout_marginBottom="5dip"
+				/>
+				<View 
+		android:layout_width="fill_parent"
+		android:layout_height="1dp"
+		android:background="#ff434343"
+		android:layout_marginBottom="5dip"
+	/>
+	<TextView 
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="All time values displayed in Mobile Forum are in Indian Standard Time (GMT +5:30)"
+				android:layout_marginTop="10dip"
+				/>
+			<TextView 
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="@string/reg_warning"
+				android:layout_marginTop="10dip"
+				/>
+				
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			    android:orientation="horizontal"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    >
+				<Button 
+					android:id="@+id/Register"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:textStyle="bold"
+					android:text="Register"
+					android:layout_marginTop="10dip"
+					android:background="@drawable/button"
+					android:layout_weight="1"
+					/>
+				<Button 
+					android:id="@+id/Reset"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:textStyle="bold"
+					android:text="Reset"
+					android:layout_marginTop="10dip"
+					android:background="@drawable/button"
+					android:layout_weight="1"
+					/>
+			</LinearLayout>
+		</LinearLayout>
+		
+	</ScrollView>
+</LinearLayout>

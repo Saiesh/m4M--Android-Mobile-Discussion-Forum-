@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mobile Forum</string>
+    <string name="new_user">New User? <u>Click Here</u></string>
+    <string name="forgot_password"><u>Forgot Password?</u></string>
+    <string name="restore_default"><u>Restore Default</u></string>
+    <string name="request_contact"><u>Request Contact Details</u></string>
+    <string name="SignIn">Sign In to access all features of m4M</string>
+    <string name="reg_welcome">Getting started with Mobile Forum is easy, just provide the required details and click Register. All fields are mandatory.</string>
+    <string name="teacher">For security reasons, our moderators may contact you to verify your designation as a teacher. We request you to cooperate.</string>
+    <string name="reg_warning">Content posted on Mobile Forum is moderated. Please respect other users. Misconduct will lead to your posts being deleted and eventual account termination.</string>
+    <string name="forgotpwd">You are required to verify your membership in m4M, following which you can use any of the options provided to obtain a temporary password.</string>
+    <string name="asktitle"><b>Give a title for your question...</b> (50 characters maximum)</string>
+    <string name="askquestion"><b>State your question. Be precise, and don\'t leave out any relevant details...</b> (350 characters maximum)</string>
+    <string name="answerq"><b>Write your answer...</b> (350 characters maximum)</string>
+    <string-array name="sort">
+        <item>Search &amp; Sort by Name</item>
+        <item>Search &amp; Sort by Username</item>
+    </string-array>
+</resources>

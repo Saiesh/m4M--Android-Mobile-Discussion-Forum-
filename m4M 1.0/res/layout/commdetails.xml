@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFFFF"
+    
+    >
+    <ScrollView android:id="@+id/ScrollView01"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFFFF"
+	android:paddingLeft="30dip"
+    android:paddingRight="30dip"
+    android:paddingBottom="5dip"
+ 	>
+ 	
+    <TextView 
+    	android:textColor="#FF2F2F2F" 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content"
+    	android:paddingTop="5dip"
+    	android:text="Name"
+    />
+    <TextView 
+    	android:textColor="#FF000000"
+    	android:layout_height="wrap_content" 
+    	android:textAppearance="?android:attr/textAppearanceMedium" 
+    	android:id="@+id/comm_name" 
+    	android:text="comm_name" 
+    	android:layout_width="wrap_content"
+    	android:layout_marginBottom="5dip"
+    />
+    
+    <TextView 
+    	android:textColor="#FF2F2F2F" 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content"
+    	android:paddingTop="5dip"
+    	android:text="Username"
+    />
+    <TextView 
+    	android:textColor="#FF000000"
+    	android:layout_height="wrap_content" 
+    	android:textAppearance="?android:attr/textAppearanceMedium" 
+    	android:id="@+id/comm_username" 
+    	android:text="comm_username" 
+    	android:layout_width="wrap_content"
+    	android:layout_marginBottom="5dip"
+    />
+    
+    <TextView 
+    	android:textColor="#FF2F2F2F" 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content"
+    	android:paddingTop="5dip"
+    	android:text="Joined"
+    />
+    <TextView 
+    	android:textColor="#FF000000"
+    	android:layout_height="wrap_content" 
+    	android:textAppearance="?android:attr/textAppearanceMedium" 
+    	android:id="@+id/comm_joined" 
+    	android:text="comm_joined" 
+    	android:layout_width="wrap_content"
+    	android:layout_marginBottom="5dip"
+    />
+    
+    <TextView 
+    	android:textColor="#FF2F2F2F" 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content"
+    	android:paddingTop="5dip"
+    	android:text="Forum Designation"
+    />
+    <TextView 
+    	android:textColor="#FF000000"
+    	android:layout_height="wrap_content" 
+    	android:textAppearance="?android:attr/textAppearanceMedium" 
+    	android:id="@+id/comm_designation" 
+    	android:text="comm_designation" 
+    	android:layout_width="wrap_content"
+    	android:layout_marginBottom="5dip"
+    />
+    
+    <TextView 
+    	android:textColor="#FF2F2F2F" 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content"
+    	android:paddingTop="5dip"
+    	android:text="Questions Posted"
+    />
+    <TextView 
+    	android:textColor="#FF000000"
+    	android:layout_height="wrap_content" 
+    	android:textAppearance="?android:attr/textAppearanceMedium" 
+    	android:id="@+id/comm_questions" 
+    	android:text="comm_questions" 
+    	android:layout_width="wrap_content"
+    	android:layout_marginBottom="5dip"
+    />
+    
+    <TextView 
+    	android:textColor="#FF2F2F2F" 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content"
+    	android:paddingTop="5dip"
+    	android:text="Answers Posted"
+    />
+    <TextView 
+    	android:textColor="#FF000000"
+    	android:layout_height="wrap_content" 
+    	android:textAppearance="?android:attr/textAppearanceMedium" 
+    	android:id="@+id/comm_answers" 
+    	android:text="comm_answers" 
+    	android:layout_width="wrap_content"
+    	android:layout_marginBottom="5dip"
+    />
+    
+    
+    <TextView 
+    	android:textColor="#FF2F2F2F" 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content"
+    	android:paddingTop="5dip"
+    	android:text="Solutions Posted"
+    />
+    <TextView 
+    	android:textColor="#FF000000"
+    	android:layout_height="wrap_content" 
+    	android:textAppearance="?android:attr/textAppearanceMedium" 
+    	android:id="@+id/comm_solutions" 
+    	android:text="comm_solutions" 
+    	android:layout_width="wrap_content"
+    	android:layout_marginBottom="5dip"
+    />
+    
+    <TextView 
+    	android:textColor="#FF2F2F2F" 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content"
+    	android:paddingTop="5dip"
+    	android:text="Aggregate Question Rating"
+    />
+    <TextView 
+    	android:textColor="#FF000000"
+    	android:layout_height="wrap_content" 
+    	android:textAppearance="?android:attr/textAppearanceMedium" 
+    	android:id="@+id/comm_qaggregate" 
+    	android:text="comm_qaggregate" 
+    	android:layout_width="wrap_content"
+    	android:layout_marginBottom="5dip"
+    />
+    
+    <TextView 
+    	android:textColor="#FF2F2F2F" 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content"
+    	android:paddingTop="5dip"
+    	android:text="Aggregate Answer Rating"
+    />
+    <TextView 
+    	android:textColor="#FF000000"
+    	android:layout_height="wrap_content" 
+    	android:textAppearance="?android:attr/textAppearanceMedium" 
+    	android:id="@+id/comm_anaggregate" 
+    	android:text="comm_anaggregate" 
+    	android:layout_width="wrap_content"
+    	android:layout_marginBottom="10dip"
+    />
+    
+    <TextView 
+    	android:layout_height="wrap_content"
+    	android:layout_width="wrap_content"
+    	android:text="@string/request_contact"
+    	android:textColor="#FF0000FF"
+    	android:layout_margin = "10dip"
+    	android:gravity="center_horizontal"
+    	android:id="@+id/comm_contact"
+    />
+    
+    <Button 
+    	android:layout_width="150dip"
+    	android:layout_height="wrap_content"
+    	android:id="@+id/commclose"
+    	android:text="Close"
+    	android:layout_gravity="center_horizontal"
+    />
+    
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+>
+<ScrollView 
+	android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFFFF"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip"
+    >
+    <TextView 
+    	android:textColor="#FF000000" 
+    	android:layout_height="wrap_content" 
+    	android:text="Username" 
+    	android:layout_width="wrap_content"
+    	android:paddingTop="10dip"
+    />
+    <EditText 
+    	android:layout_height="wrap_content"
+    	android:layout_width="fill_parent"
+    	android:id="@+id/user_id"
+    	android:inputType="textAutoComplete"
+    	android:maxLength="32"
+    />
+    <TextView 
+    	android:layout_height="wrap_content"
+    	android:layout_width="wrap_content"
+    	android:text="Password"
+    	android:textColor="#FF000000"
+    	
+    />
+    <EditText 
+    	android:layout_height="wrap_content"
+    	android:layout_width="fill_parent"
+       	android:id="@+id/password"
+       	android:password="true"
+       	android:maxLength="48"
+    />
+    <CheckBox 
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:id="@+id/RememberMe"
+    	android:textColor="#FF000000"
+    	android:text=" Remember Me"
+    	android:checked="false"
+    	android:textAppearance="@android:style/TextAppearance.Small"
+    />
+    <TextView 
+    	android:layout_height="wrap_content"
+    	android:text="@string/forgot_password"
+    	android:gravity="center_horizontal"
+    	android:textColor="#FF0000FF"
+    	android:padding="10dip"
+    	android:id="@+id/forgot_pass"
+    	android:layout_width="match_parent"/>
+    <View 
+    	android:layout_width="fill_parent"
+    	android:layout_height="3dp"
+    	android:padding="20dip"
+    />
+    <Button 
+    	android:layout_width="100dip"
+    	android:layout_height="wrap_content"
+    	android:text="Login"
+    	android:id="@+id/sign_in"
+    	android:layout_gravity="center_horizontal"
+    />
+    <TextView 
+    	android:layout_height="wrap_content"
+    	android:layout_width="wrap_content"
+    	android:text="@string/new_user"
+    	android:textColor="#FF0000FF"
+    	android:padding="10dip"
+    	android:gravity="center_horizontal"
+    	android:id="@+id/new_user"
+    />
+</LinearLayout>  
+</ScrollView>  
+</LinearLayout>

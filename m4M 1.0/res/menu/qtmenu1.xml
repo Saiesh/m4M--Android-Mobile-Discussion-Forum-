@@ -1,0 +1,5 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/qt_refresh_menu"
+        android:title="Reload Data"
+        android:icon="@android:drawable/ic_menu_rotate" />
+</menu>
