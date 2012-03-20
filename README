@@ -12,6 +12,23 @@ Features Of m4M (Mobile Forum) :
 - Login to enable users to ask/answer questions and also rate questions and answers . Users can also mark solutions to 
   their questions .
 - Features to help users register (if not already registered) and also help them retrieve their passwords if
-  forgotten .
+  forgotten (either through mail or sms).
 - Encryption of passwords (AES) to maintain confidentiality .
+- Community page to help users view other users details (no: of questions asked , no: of answers , etc) .
+- Settings page to limit the number of questions retrieved during each refresh .
+- Versioning system and user feedback options to help m4M evolve .
+- Menu's to search by user/question .
+- Implementation of an existing algorithm to sort questions in the glance page based on a combination of 
+  question rating and the date asked .
+
+NOTE : THE APPLICATION WILL NOT RUN AT PRESENT BECAUSE THE REMOTE SERVER HAS CRASHED . PLEASE WAIT TILL
+       m4m-Developers RESTORE THE SERVER .
+
+m4m-Developers :
+
+Saiesh N <saiesh.nat@gmail.com>
+
+Shashank Kedia <kedia990@gmail.com>
+
+For any queries and feedback mail us at m4mdevelopers@gmail.com
 
